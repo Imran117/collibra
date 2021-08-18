@@ -1,0 +1,755 @@
+@import url(font.css);
+
+/* ------------- Site Config------------- */
+
+:root {
+    --white: #FFFFFF;
+    --green: #72BF00;
+    --blue: #002B40;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* -------------start Header------------- */
+.header {
+    display: flex;
+    flex-direction: column
+}
+
+.header__block {
+    background: #002B40;
+    width: 100%;
+    position: relative;
+}
+
+.header__bottom {
+    background: #032736;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bottom__item {
+    display: flex;
+    align-items: flex-end;
+}
+
+.block__left {
+    padding-top: 200px;
+    padding-bottom: 110px;
+}
+
+.block__left-title {
+    font-size: 68px;
+    font-family: 'Gothic';
+    color: var(--white);
+    font-weight: 400;
+}
+
+.block__left-span {
+    color: var(--green);
+}
+
+.block__left-text {
+    font-size: 18px;
+    font-family: 'Amiri';
+    color: var(--white);
+    padding-top: 55px;
+    margin-left: 40px;
+}
+
+.bottom__text {
+    font-size: 17px;
+    font-family: 'Gothic';
+    color: var(--white);
+    padding-top: 7px;
+}
+
+.header__bottom-text {
+    color: var(--white);
+    font-size: 12px;
+    font-family: 'Gothic';
+    margin-left: 100px;
+}
+
+.block__right {
+    width: 570px;
+    height: 700px;
+    background: var(--green);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 80px;
+    right: 0;
+    text-align: start;
+    z-index: 2;
+}
+
+.right__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right__anime,
+.df {
+    display: flex;
+}
+
+.anime__block-el {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: var(--white);
+    margin: 33px;
+}
+
+.rem {
+    display: flex;
+}
+
+.right__subtitle {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 25px;
+}
+
+.right__subtitle-text {
+    color: var(--white);
+    font-family: 'Gothic';
+    font-weight: 700;
+    opacity: 0;
+    transition: 2s;
+}
+
+.div {
+    position: absolute;
+    /* right: 540px; */
+    right: 0;
+    top: 120px;
+    display: flex;
+
+}
+
+.div__left {
+    display: flex;
+    flex-direction: column;
+    margin-right: -30px;
+    margin-top: 60px;
+}
+
+.div__image {
+    margin-bottom: 10px;
+}
+
+.div__bottom {
+    position: absolute;
+    bottom: -75px;
+    right: 115px;
+    z-index: 1;
+}
+
+.div__bottom-image {
+    transform: rotate(90deg);
+}
+
+.div__bottom-image2 {
+    transform: rotate(90deg);
+    margin-left: 170px;
+    /* margin-bottom: 15px; */
+}
+
+.main {
+    background: #fcf9f9;
+}
+
+.insights {
+    display: flex;
+    align-items: center;
+    padding-top: 260px;
+}
+
+.insights__left {
+    margin-right: 90px;
+    max-width: 662px;
+}
+
+.insights__right {
+    max-width: 525px;
+    width: 100%;
+}
+
+.insights__right-top {
+    font-size: 12px;
+    font-family: 'Gothic';
+    color: var(--blue);
+    margin-bottom: 15px;
+}
+
+.insights__right-title {
+    font-size: 34px;
+    font-family: 'Gothic';
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.insights__right-text {
+    font-size: 18px;
+    font-family: 'Amiri';
+    color: var(--blue);
+    line-height: 25px;
+
+}
+
+.insights__right-link {
+    text-decoration: none;
+    color: var(--blue);
+    font-family: 'Gothic';
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.projects {
+    padding-top: 112px;
+    padding-bottom: 80px;
+}
+
+.projects__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 105px;
+}
+
+.item__top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.projects__link {
+    padding: 10px 12px;
+    text-decoration: none;
+    color: #5E7177;
+    font-family: 'Gothic';
+    background: #EFF2F3;
+}
+
+.projects__title {
+    margin-top: 25px;
+    font-size: 36px;
+    color: #002B40;
+    font-family: 'Gothic';
+    font-weight: 400;
+}
+
+.projects__bottom-text {
+    max-width: 247px;
+    width: 100%;
+}
+
+.projects-item {
+    display: flex;
+}
+
+.projects__title-text {
+    color: #00755F;
+}
+
+.item__title {
+    margin-bottom: 20px;
+    color: var(--blue);
+    font-family: 'Gothic';
+    font-size: 17px;
+}
+
+.projects__bottom-text {
+    margin-bottom: 55px;
+    color: var(--blue);
+    font-size: 18px;
+    font-family: 'Amiri';
+    font-weight: 400;
+}
+
+.projects__bottom-link {
+    font-family: 'Gothic';
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--blue);
+}
+
+.projects__bottom-link:hover {
+    text-decoration: underline;
+}
+
+.data__item {
+    display: flex;
+    align-items: center;
+}
+
+.platform {
+    background: #002B40;
+    padding-top: 195px;
+}
+
+.platform__left {
+    max-width: 450px;
+    width: 100%;
+}
+
+.platform__left-title {
+    font-size: 60px;
+    font-family: 'Gothic';
+    color: var(--white);
+    font-weight: 400;
+}
+
+.platform__left-text {
+    font-size: 18px;
+    font-family: 'Amiri';
+    color: var(--white);
+    font-weight: 400;
+    margin-top: 38px;
+}
+
+.platform__left-span {
+    font-size: 15px;
+    color: var(--white);
+    font-family: 'Gothic';
+    margin-top: 20px;
+}
+
+.platform__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.platform__right-image {
+    max-width: 523px;
+    width: 100%;
+}
+
+.platform__right-border {
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.platform__center {
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    padding: 105px 45px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.plagin__center-text {
+    color: var(--white);
+    font-size: 21px;
+    font-family: 'Gothic';
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.platform__slide {
+    position: absolute;
+    top: -105px;
+    left: -97px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate ; */
+
+}
+
+.menu {
+    display: flex;
+    margin-top: 125px;
+}
+
+.menu__category {
+    width: 30%;
+    background: #00755F;
+    display: flex;
+    flex-direction: column;
+    height: 728px;
+}
+
+.menu__category-title {
+    padding-top: 60px;
+    padding-left: 56px;
+    font-size: 20px;
+    font-family: 'Gothic';
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.menu__category-link {
+    padding-left: 56px;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    font-family: 'Gothic';
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.5s;
+}
+
+.menu__category-img {
+    margin-right: 15px;
+}
+
+.menu__category-link:hover {
+    background: #005D4C;
+}
+
+.menu__window {
+    width: 70%;
+    background: #DFE6E8;
+    height: 728px;
+}
+
+.window {
+    padding: 60px 105px;
+}
+
+.window-title {
+    font-size: 23px;
+    color: var(--blue);
+    font-family: 'Gothic';
+    margin-bottom: 30px;
+}
+
+.window-text {
+    font-size: 18px;
+    color: var(--blue);
+    font-family: 'Amiri';
+    line-height: 27px;
+    margin-bottom: 15px;
+    max-width: 615px;
+    width: 100%;
+}
+
+.window-link {
+    text-decoration: none;
+    color: var(--blue);
+    font-family: 'Gothic';
+    font-size: 15px;
+}
+
+.window-link:hover {
+    text-decoration: underline;
+}
+
+.image__block {
+    margin-top: 65px;
+}
+
+.image__block-img {
+    max-width: 620px;
+    width: 100%;
+}
+
+.person {
+    background: #EFF2F3;
+    margin-top: -216px;
+    /* ------заметка------ */
+}
+
+.person__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 376px;
+    padding-bottom: 100px;
+}
+
+.person__item-block {
+    background: var(--white);
+    max-width: 375px;
+    width: 100%;
+    height: 350px;
+    padding: 25px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 5px rgb(202 202 202);
+}
+
+.person__subtitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.person__subtitle-title {
+    font-size: 30px;
+    color: #00755F;
+    font-family: 'Gothic';
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.person__item-text {
+    color: var(--blue);
+    font-family: 'Gothic';
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.person__item-info {
+    color: var(--blue);
+    font-family: 'Amiri';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    max-width: 282px;
+    width: 100%;
+    height: 135px;
+    margin-bottom: 50px;
+}
+
+.person__item-link {
+    font-family: 'Gothic';
+    font-size: 15px;
+    color: var(--blue);
+    text-decoration: none;
+    width: fit-content;
+}
+
+.person__item-link:hover {
+    text-decoration: underline;
+}
+
+.partner {
+    background: var(--white);
+    padding-top: 130px;
+    padding-bottom: 95px;
+}
+
+.partner__block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.partner__image {
+    margin-right: 135px;
+}
+
+.partner__image-img {
+    max-width: 368px;
+    width: 100%;
+}
+
+.partner__right {
+    max-width: 690px;
+}
+
+.partner__right-span {
+    font-size: 11px;
+    font-family: 'Gothic';
+    color: var(--blue);
+    margin-bottom: 15px;
+}
+
+.partner__right-text {
+    font-size: 26px;
+    font-family: 'Gothic';
+    color: var(--blue);
+    text-align: left;
+    margin-bottom: 45px;
+}
+
+.person-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.item__info {
+    margin-left: 25px;
+}
+
+.item__info-title {
+    font-size: 17px;
+    font-family: 'Gothic';
+    color: 400;
+    margin-bottom: 7px;
+}
+
+.item__logo-border {
+    width: 100%;
+    height: 3px;
+    background: #EFF2F3;
+}
+
+.item__info-text {
+    color: rgba(94, 113, 119, 1);
+    font-family: 'Gothic';
+    font-size: 17px;
+}
+
+.item__logo {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.item__logo-block {
+    margin-right: 15px;
+}
+
+.demo {
+    background: #DFE6E8;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+
+.demo__left {
+    margin-right: 130px;
+}
+
+.demo__left-img {
+    max-width: 642px;
+    width: 100%;
+}
+
+.demo__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo__right-block {
+    display: flex;
+   align-self: stretch;
+}
+
+.demo__right-title {
+    font-size: 34px;
+    color: #002B40;
+    font-family: 'Gothic';
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.demo__right-text {
+    color: #002B40;
+    font-family: 'Amiri';
+    font-size: 18px;
+}
+
+.demo__right-link {
+    color: #002B40;
+    font-family: 'Gothic';
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 44px 13px 44px;
+    background: #72BF00;
+    margin-top: 18px;
+}
+
+.footer {
+    background: var(--blue);
+}
+
+.footer__block {
+    padding-top:115px;
+    padding-bottom: 35px;
+}
+
+.footer__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.top__item {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 150px;
+}
+
+.footer__item-list {
+   margin-left: 35px;
+}
+
+.footer__item-link {
+    color: var(--white);
+    font-family: 'Gothic';
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer__line {
+    width: 100%;
+    height: 1px;
+    background: #DFE6E89C;
+}
+
+.footer__post {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.post__item {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.post__item-list {
+    margin-left: 30px;
+}
+
+.post__item-link {
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Gothic';
+    font-size: 13px;
+}
+
+.post__item-link:hover {
+    text-decoration: underline;
+}
+
+.author {
+    color: var(--white);
+    font-size: 13px;
+    font-family: 'Gothic';
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 45px;
+    margin-right: 25px;
+}

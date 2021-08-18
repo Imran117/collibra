@@ -1,0 +1,368 @@
+@media (max-width:1270px) {
+
+    .div__left,
+    .div__bottom {
+        display: none;
+    }
+
+    .df {
+        justify-content: space-between;
+        padding-right: 0;
+    }
+
+    .anime__block-el {
+        margin: 25px;
+    }
+
+    .block__left-title {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .header__bottom-text {
+        margin-left: 120px;
+    }
+}
+
+/********************************************1200****/
+@media (max-width:1200px) {
+    .div {
+        position: initial;
+        margin-top: 35px;
+    }
+
+    .insights {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .projects__bottom {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-top: 45px; */
+    }
+
+    .bt {
+        margin-top: 30px;
+    }
+
+    .insights__left {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .insights__right {
+        margin-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .platform__item {
+        flex-direction: column-reverse;
+    }
+
+    .platform__right {
+        margin-bottom: 50px;
+    }
+
+    .platform__left {
+        text-align: center;
+    }
+
+    .platform {
+        padding-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+    .menu__category-span,
+    .menu__category-title {
+        opacity: 0;
+        display: none;
+    }
+
+    .menu__category-link {
+        padding-left: 0;
+        padding: 39px;
+    }
+
+    .menu__category-img {
+        margin: 0;
+    }
+
+    .menu__category {
+        width: 100px;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .window {
+        padding: 15px;
+    }
+
+    .person__item {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 200px;
+    }
+
+    .partner__block {
+        flex-direction: column;
+    }
+
+    .partner__image {
+        margin-bottom: 60px;
+        margin-right: 0;
+    }
+
+    .partner__right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item__logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .item__logo-block {
+        margin-top: 35px;
+    }
+
+    .demo {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .demo__left {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .top__item {
+        margin-right: 0;
+    }
+
+    .footer__block {
+        padding-top: 50px;
+    }
+}
+
+/*******************************************992*****/
+@media (max-width:992px) {
+    .block__right {
+        width: 450px;
+    }
+
+    .partner {
+        padding-top: 55px;
+    }
+
+    .post__item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .post__item-list {
+        margin-top: 20px;
+    }
+
+    .footer__post {
+        justify-content: initial;
+    }
+
+    .media {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+}
+
+/********************************************768****/
+@media (max-width:768px) {
+    .block__left-title {
+        font-size: 40px;
+    }
+
+    .df {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .block__right {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .block__left {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .anime__block-el {
+        margin: 25px 35px;
+    }
+
+    .block__left-title {
+        font-size: 63px;
+    }
+
+    .header__bottom-text {
+        margin-left: 100px;
+    }
+
+    .menu {
+        display: none;
+        opacity: 0;
+    }
+
+    .person {
+        margin: 0;
+    }
+
+    .platform {
+        margin: 0;
+    }
+
+    .platform__item {
+        padding-bottom: 40px;
+    }
+
+    .person__item {
+        padding-top: 100px;
+    }
+
+    .partner__right-text {
+        font-size: 18px;
+
+    }
+}
+
+@media (max-width:700px) {
+    .bt {
+        margin: 0;
+    }
+
+    .projects-item {
+        border: 1px solid rgba(211, 211, 211, 0.426);
+        padding: 15px;
+        margin-top: 60px;
+        box-shadow: 10px 10px 5px rgb(202, 202, 202);
+    }
+
+    .projects__bottom {
+        margin-top: 0;
+    }
+
+    .platform__left-title {
+        font-size: 45px;
+    }
+
+    .platform__left-text {
+        font-size: 15px;
+    }
+
+    .footer__post {
+        display: none;
+    }
+
+    .footer__top {
+        flex-direction: column;
+    }
+    
+    .footer__item-list {
+        margin: 0 10px;
+    }
+
+    .top__item {
+        margin-top: 25px;
+    }
+
+}
+
+/******************************************576******/
+@media (max-width:576px) {
+    .anime__block-el {
+        margin: 25px;
+
+    }
+
+    .header__bottom-text {
+        display: none;
+    }
+
+    .platform__left-title {
+        font-size: 30px;
+    }
+
+    .partner__right-text {
+        text-align: center;
+    }
+
+    .demo__right-title {
+        font-style: 28px;
+    }
+
+    .demo__right-text {
+        font-size: 15px;
+    }
+
+}
+
+/********************************************400*****/
+@media (max-width:400px) {
+    .anime__block-el {
+        margin: 18px;
+    }
+
+    .block__left-title {
+        font-size: 38px;
+    }
+
+    .insights__right-title {
+        font-size: 28px;
+    }
+
+    .person__item-info {
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+
+    .person-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .demo__right {
+        text-align: center;
+    }
+
+    .demo__right-block {
+        align-self: initial;
+    }
+
+    .demo__right-title {
+        font-size: 26px;
+    }
+    
+    .footer__item-link {
+        font-size: 12px;
+    }
+}
+
+/*******************************************320*****/
+@media (max-width:320px) {}
